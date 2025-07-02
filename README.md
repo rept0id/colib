@@ -21,12 +21,13 @@ This is to help people working on parallelism related code/pseudocode that is ba
 Colib uses the OpenMP library under the hood, so you have to compile including it (`-fopenmp` for GCC).
 
 For example:
-```
+```bash
 gcc -fopenmp main.c -o main
 ```
 
 ## Example
-```
+main.c:
+```c
 #include "colib.h"
 
 int main() {
@@ -50,4 +51,9 @@ int main() {
     return 0;
 }
 
+```
+
+Shell:
+```bash
+gcc -fopenmp main.c -o main
 ```
