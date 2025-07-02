@@ -2,7 +2,7 @@
 
 Colib is a C library that provides "BEGIN", "END", "COBEGIN", "COEND" and "COSECTION" blocks for C.
 
-This is to help people working on parallelism code/pseudocode that is based on "Concurrent Pascal"-based syntax that doesn't exist nowdays (Concurrent Pascal, Modula-2, etc...).
+This is to help people working on parallelism related code/pseudocode that is based on "Concurrent Pascal"-based syntax that doesn't exist nowdays (Concurrent Pascal, Modula-2, etc...).
 
 ## How to use
 
