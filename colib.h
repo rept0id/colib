@@ -1,5 +1,5 @@
-#ifndef COLIB_H
-#define COLIB_H
+#ifndef LIB_COLIB_H
+#define LIB_COLIB_H
 
 #include <stdio.h>
 #include <omp.h>
